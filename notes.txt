@@ -1,0 +1,50 @@
+Runtime: 230m 34s
+
+num_classes = 2
+num_epochs = 40
+batch_size = 32
+learning_rate = 0.005
+
+
+TRIAL 1
+
+#HYPERPARAMS
+
+num_classes = 2
+num_epochs = 75
+batch_size = 32
+learning_rate = 0.05
+
+Dropout in layer6
+
+TRIAL 2
+
+#HYPERPARAMS
+
+num_classes = 2
+num_epochs = 25
+batch_size = 32
+learning_rate = 0.005
+l1_lambda = 0.001
+weight_decay_=0.005 #L2 Loss
+
+model = VGG_4Cancer_Classification(num_classes).to(device)
+Droupots included
+
+# Loss and optimizer
+criterion = nn.CrossEntropyLoss()
+optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate, weight_decay = weight_decay_, momentum = 0.95)  
+
+
+
+TRIAL 3
+
+Droupots included
+
+Same as trial 2 but, with Adam optimizer: torch.optim.Adam(model.parameters(), lr=learning_rate)
+
+Erratic loss, acc curves still continue
+
+TRIAL 3
+
+Dropouts excluded
