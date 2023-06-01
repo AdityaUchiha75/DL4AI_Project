@@ -52,3 +52,16 @@ Dropouts excluded
 TRIAL 5,6 - Adding more layers per trial. TRIAL 6 - all layers of VGG16 except fc1
 
 TRIAL 7- Normalized input. Model config same as TRIAL 6
+
+Dropout is trash.
+Epoch [1/20]
+100%|██████████| 1666/1666 [01:57<00:00, 14.20it/s]
+Epoch [1/20], Step [1667/2296], Accuracy: 60.2849; Loss: 1.1599
+Accuracy of the network on the 20160 validation images: 77.8865 % ; Loss - 0.6274
+Epoch [2/20]
+100%|██████████| 1666/1666 [01:55<00:00, 14.41it/s]
+Epoch [2/20], Step [1667/2296], Accuracy: 60.0071; Loss: 0.7984
+Accuracy of the network on the 20160 validation images: 61.9059 % ; Loss - 2.3655
+Epoch [3/20]
+100%|██████████| 1666/1666 [01:56<00:00, 14.34it/s]
+Epoch [3/20], Step [1667/2296], Accuracy: 60.0297; Loss: 1.1067
