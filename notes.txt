@@ -48,3 +48,5 @@ Erratic loss, acc curves still continue
 TRIAL 3
 
 Dropouts excluded
+
+TRIAL 4,5,6 - Adding more layers per trial. TRIAL 6 - all layers of VGG16 except fc1
