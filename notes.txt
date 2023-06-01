@@ -45,8 +45,10 @@ Same as trial 2 but, with Adam optimizer: torch.optim.Adam(model.parameters(), l
 
 Erratic loss, acc curves still continue
 
-TRIAL 3
+TRIAL 4
 
 Dropouts excluded
 
-TRIAL 4,5,6 - Adding more layers per trial. TRIAL 6 - all layers of VGG16 except fc1
+TRIAL 5,6 - Adding more layers per trial. TRIAL 6 - all layers of VGG16 except fc1
+
+TRIAL 7- Normalized input. Model config same as TRIAL 6
